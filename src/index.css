@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#434343 ;
+}
+
+.App{
+  background-color:#434343;
+  padding: 20px;
+  text-align: center;
+}
+
+.form{
+  display: flex;
+  flex-wrap: wrap ;
+  padding: 1rem 1rem;
+}
+.items{
+  flex-grow: 1;
+  flex-basis: 8rem;
+  margin-bottom: 1rem !important;
+}
+
+#txt_getCity {
+  width: 90%;
+  border: none;
+  height: 3.4rem;
+  border-radius: 1.4rem;
+  padding-left: 1.2rem;
+  background: #80808073;
+  color: white;
+}
+
+#txt_getCity::placeholder{
+  color: white;
+}
+
+#txt_getCity:focus {
+  border: none;
+  outline: none;
+}
+#txt_getCity:active {
+  border: none;
+}
+
+ button{
+    padding: 1rem 5rem;
+    border-radius: 2rem !important;
+    border: none;
+    background:#46ad13;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 800;
+    align-items: center;   
+    float: left; 
+  
+}
+
+button:hover{
+  background:#4cbb17;
+  color: white;
+}
+
+
+.city{
+  background-color: rgba(0, 0, 0, 0.267);
+  border-radius: 2rem;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  color: white;
+  margin: 0 2rem;
+  padding: 1.2rem 1rem;
+}
+.pcity{
+  margin: 0;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+
+}
+
+.date{
+margin-top: 0rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.hour{
+  margin: 0;
+  margin-top: 1rem;
+  font-size: 2.8rem;
+}
+.margin{
+ margin-bottom: 1rem;
+}
+
+.ptext
+{
+  margin-top: -1rem;
+}
+.icons{
+  font-size: 0.9rem;
+}
